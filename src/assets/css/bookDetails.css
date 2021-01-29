@@ -1,0 +1,210 @@
+/* begin bookdetails */
+.bookDetails{
+    margin-top: 7em;
+    width: 80%!important;
+}
+.bookDetails{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+   
+
+
+}
+.fotoBoek img{
+    width: 400px!important;
+    height: auto!important;
+    
+}
+.boekInfo{
+    width: 140%;
+}
+.fotoBoek{
+    grid-column: 1 / span 2;
+    margin: auto;
+}
+.line{
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    width: 100%;
+}
+.boekinfo h1{
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+}
+.boekInfo h5{
+    font-size: 1rem;
+}
+.prijsKlein{
+    font-size: 13px!important;
+    color: #4D6CFA;
+}
+.boekInfo h2{
+    margin-top: 2em;
+    font-size: 30px;
+    color: #4D6CFA;
+    font-weight: bold;
+}
+.boekInfo h3 a{
+
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    padding: 9px 65px;
+    background-color: #4D6CFA;
+    margin-top: 5em;
+
+}
+.boekInfo h6{
+    margin-top: 1em;
+    line-height: 27px;
+    font-size: 22px;
+    font-weight: 300;
+
+
+}
+
+.boekInfo h3:hover{
+    color:white!important;
+ 
+}
+.fa-truck{
+    color: #FF5733;
+}
+.boekInfo p{
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 2px;
+}
+.aanbevolen{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+.aanbevolen h2{
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1.3px;
+    margin-bottom: 1em;
+}
+.aanbevolenBoeken{
+    width: 45%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: .7em;
+}
+.aanbevolenBoeken div router-link img{
+ width: 180px;
+ height: 289px;
+  
+}
+/* end book details */
+/* begin responsive */
+@media screen and (max-width: 420px){
+    .sorteer{
+       margin: 0 auto!important;
+     }
+.bookDetails{
+    margin-top: 7em;
+    width: 95%!important;
+}
+.bookDetails{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+   
+
+
+}
+.fotoBoek img{
+    width: 150px!important;
+    height: auto!important;
+    
+}
+.boekInfo{
+    width: 97%;
+    margin-left: 1em;
+}
+.fotoBoek{
+    grid-column: 1 ;
+    margin: auto;
+}
+.line{
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    width: 100%;
+    margin-top: -7px;
+}
+.boekinfo h1{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+}
+.boekInfo h5{
+    font-size: 1rem;
+}
+.prijsKlein{
+    font-size: 13px!important;
+    color: #4D6CFA;
+}
+.boekInfo h2{
+    margin-top: .5em;
+    font-size: 27px;
+    color: #4D6CFA;
+    font-weight: bold;
+}
+.boekInfo h3 a{
+
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    padding: 9px 65px;
+    background-color: #4D6CFA;
+    margin-top: 5em;
+
+}
+.boekInfo h6{
+    margin-top: 1em;
+    line-height: 24px;
+    font-size: 17px;
+    font-weight: 300;
+
+
+}
+
+.boekInfo h3:hover{
+    color:white!important;
+ 
+}
+.fa-truck{
+    color: #FF5733;
+}
+.boekInfo p{
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+.aanbevolen{
+    width: 85%;
+    margin: 0 auto;
+    margin-left: 1em;
+    margin-top: 3em;
+}
+.aanbevolen h2{
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1.3px;
+    margin-bottom: 1em;
+}
+.aanbevolenBoeken{
+    width: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: .7em;
+}
+.aanbevolenBoeken div router-link img{
+ width: 180px;
+ height: 289px;
+  
+}
+}
+/* end responsive */

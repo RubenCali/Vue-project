@@ -1,0 +1,560 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+
+}
+/* begin navbar */
+
+.topNavbar{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+padding: 10px 15px;
+box-shadow: 0 20px 12px -20px #333;
+position: relative;
+z-index: 2;
+background: white;
+width: 100%;
+position: fixed;
+z-index: 10;
+top: 0;
+}
+
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+.topNavbar form{
+    margin: auto;
+    grid-column: 2 / span 3;
+}
+.topNavbar form input{
+   border: .3px solid rgba(0, 0, 0, .5);
+  
+   width: 275%;
+   padding: 6px 15px;
+   border-radius: 20px;
+  
+}
+::placeholder{
+    font-size: 14px;
+    opacity: .6;
+}
+
+nav{
+  top: 50px;
+}
+.logo{
+    font-size: 21px!important;
+    font-weight: bold!important;
+    margin: 0!important;
+}
+
+
+
+.navbarBTN {
+    margin: auto!important;
+}
+.navbarBTN  i{
+    color: #333;
+    
+    font-size: 19px;
+}
+.profile{
+    margin-left: .6em;
+}
+.cart{
+    margin-right: .6em;
+}
+.navbar-nav{
+    margin: auto;
+}
+.nav-link{
+    margin: auto 1.5em;
+}
+.bookshopLogo{
+    margin: auto;
+}
+
+.sorteer{
+    background: #f8f9fa;
+    border: none;
+    color: black!important;
+ }
+
+
+/* end navbar */
+/* begin sale */
+.sale h2{
+    margin-top: 4em;
+   text-align: center;
+   letter-spacing: 2.2px;
+   font-weight: bold;
+   font-size: 22px;
+}
+.timer{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2em;
+    margin-top: 1em;
+    
+}
+.timer div{
+    border: 1.2px solid black;
+    -webkit-box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.65); 
+box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.65);
+padding: 22px 0px;
+    width: 110px;
+    margin: auto;
+    border-radius: 5px;
+    
+  
+}
+.dagen{
+  margin-right: -72%!important;
+}
+.uren{
+    margin-right: -5px!important;
+}
+.min{
+    margin-left: -5px!important;
+}
+.sec{
+    margin-left: -72%!important;
+}
+.timer div h4{
+    margin: 0;
+    font-weight: bold;
+    font-size: 32px;
+}
+.timer div h5{
+    margin: 0;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+/* end sale */
+
+/* begin book section */
+
+#app a{
+    color: black;
+}
+#app a:hover{
+    color: black!important;
+    text-decoration: none!important;
+
+}
+#app div img{
+    width: 190px;
+    height: 289px;
+}
+#app a h2{
+    margin-top: 7px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.korting{
+    background: #F6AA1C;
+    padding: 7px 12px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 1.3em;
+}
+.korting h4{
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0;
+}
+#app a h6{
+    margin-top: -7px;
+    font-size: 13px;
+}
+#app a p{
+    color: #4D6CFA;
+    font-size: 18px;
+    font-weight: bold;
+}
+#books{
+  
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4em;
+}
+.boeken{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1.5em;
+}
+
+
+
+
+/* end book section */
+
+/* begin specialKorting */
+.specialKorting{
+    width: 80%;
+    padding: 30px 25px;
+    margin: 0 auto;
+    margin-top: 4em;
+    background: linear-gradient( rgba(255, 255, 255, .85), rgba(255, 255, 255, .85)), url(../img/specialKorting.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1.2px solid #4D6CFA;
+    border-radius: 3px;
+    margin-bottom: -5%;
+    position: relative;
+    z-index: 1;
+}
+.specialKorting h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+.specialKorting form{
+    text-align: center;
+    margin-top: 1em;
+}
+.specialKorting form input{
+    padding: 5px 10px;
+    width: 30em;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-right: 1em;
+}
+.specialKorting form button{
+    background: #4D6CFA;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid #4D6CFA;
+    border-radius: 20px;
+    margin-left: 1em;
+}
+
+/* end specialKorting */
+
+/* begin footer */
+footer{
+    width: 100%;
+   
+    background: #4D6CFA;
+}
+.footer{
+    padding-top: 7%;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4em;
+    
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+}
+
+.footer h3{
+    font-size: 18px!important;
+    margin-bottom: 22px!important;
+
+}
+.footer p{
+    font-size: 14px;
+}
+.informatie__sub{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* end footer */
+
+/* begin copy */
+.copyright{
+    text-align: center;
+    background: #214aff;
+    padding: 11px 15px;
+}
+.copyright p{
+    margin: 0!important;
+}
+/* end copy */
+
+/* begin responsive */
+@media screen and (max-width: 400px){
+    
+ /* begin navbar */
+ body{
+     overflow-x: hidden;
+ }
+.navbar{
+    position: fixed!important;
+    top: 37px;
+    width: 100%;
+    background: #c7c7c7;
+    z-index: 9;
+    padding: 20px;
+
+}
+.navbar-toggler{
+  margin-top: 5px;
+  margin-left: 83%;
+}
+.nav-link{
+    text-align: center;
+}
+
+.topNavbar{
+
+    grid-template-columns: 1fr 1fr ;
+    padding: 10px 15px;
+    box-shadow: 0 20px 12px -20px #333;
+    position: relative;
+    z-index: 2;
+    background: white;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    }
+    
+    input.empty {
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+    }
+    .topNavbar form{
+       display: none;
+    }
+    .topNavbar form input{
+     display: none;
+      
+    }
+    ::placeholder{
+        font-size: 14px;
+        opacity: .6;
+    }
+    
+    nav{
+      top: 50px;
+    }
+    .logo{
+        font-size: 17px!important;
+        font-weight: bold!important;
+        margin: 0!important;
+    }
+    
+    
+    
+    .navbarBTN {
+        margin-right: 0!important;
+    }
+    .navbarBTN  i{
+        color: #333;
+        
+        font-size: 19px;
+    }
+    .profile{
+        margin-left: .6em;
+    }
+    .cart{
+        margin-right: .6em;
+    }
+    .navbar-nav{
+        margin: auto;
+    }
+    .nav-link{
+        margin: auto 1.5em;
+    }
+    .bookshopLogo{
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    
+    
+    
+    
+    /* end navbar */
+
+
+    /* begin sale */
+.sale h2{
+    margin-top: 5em;
+ 
+}
+.timer{
+    grid-gap: 1em;
+    
+}
+.timer div{
+padding: 20px 0px;
+    width: 78px;
+    margin: auto;
+    
+  
+}
+.dagen{
+  margin-right: -25%!important;
+}
+.uren{
+    margin-right: -5px!important;
+}
+.min{
+    margin-left: -5px!important;
+}
+.sec{
+    margin-left: -25%!important;
+}
+.timer div h4{
+    font-weight: bold;
+    font-size: 25px;
+}
+.timer div h5{
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+/* end sale */
+
+/* begin book section */
+
+#app a{
+    color: black;
+}
+#app a:hover{
+    color: black!important;
+    text-decoration: none!important;
+
+}
+#app div img{
+    width: 105px;
+    height: auto;
+}
+#app a h2{
+    margin-top: 7px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.korting{
+    background: #F6AA1C;
+    padding: 3px 6px;
+    position: absolute;
+    z-index: 1;
+    margin-top: .7em;
+}
+.korting h4{
+    font-size: 9px;
+    font-weight: bold;
+    margin: 0;
+}
+#app a h6{
+    margin-top: -7px;
+    font-size: 11px;
+}
+#app a p{
+    color: #4D6CFA;
+    font-size: 14px;
+    font-weight: bold;
+}
+#books{
+  
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 2.5em;
+}
+.boeken{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 1em;
+}
+
+
+
+/* end book section */
+
+/* begin specialKorting */
+.specialKorting{
+    width: 95%;
+    padding: 10px 7px;
+    margin-top: 3em;
+    margin-bottom: -15%;
+ 
+}
+.specialKorting h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px!important;
+}
+.specialKorting form{
+    text-align: center;
+    margin-top: 1em;
+}
+.specialKorting form input{
+    padding: 3px 7px;
+    width: 15em;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-right: .4em;
+    margin-left: -.5em;
+}
+.specialKorting form button{
+    background: #4D6CFA;
+    color: white;
+    padding: 3px 7px;
+    border: 1px solid #4D6CFA;
+    border-radius: 20px;
+    margin-left: .4em;
+}
+
+/* end specialKorting */
+
+/* begin footer */
+footer{
+    width: 100%;
+   
+    background: #4D6CFA;
+}
+.footer{
+    padding-top: 25%;
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+}
+
+.footer h3{
+    font-size: 18px!important;
+    margin-bottom: 22px!important;
+
+}
+.footer p{
+    font-size: 14px;
+}
+.informatie__sub{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* end footer */
+
+/* begin copy */
+.copyright{
+    text-align: center;
+    background: #214aff;
+    padding: 11px 15px;
+}
+.copyright p{
+    margin: 0!important;
+}
+/* end copy */
+    
+}
+/* end responsive */
