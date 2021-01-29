@@ -1,24 +1,3 @@
-# vuetest
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## vue project FRO
+### https://my-project-1531982535302.web.app/#/
+#### de tijdelijke aanbieding ziet er nu apart uit met -getallen maar ik kan dat niet aanpassen dus dat is een beetje apart
